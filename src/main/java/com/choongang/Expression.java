@@ -7,6 +7,6 @@ public class Expression {
         //코드는 아래 라인에 작성해야 합니다.
         num1 = 5;
         num2 = 7;
-        result = num1 + num2;
+        result = num1 * num2;
     }
 }
