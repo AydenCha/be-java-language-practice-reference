@@ -30,8 +30,8 @@ class ExpressionTest {
     }
 
     @Test
-    @DisplayName("result는 num1과 num2의 덧셈과 같아야 합니다")
+    @DisplayName("result는 num1과 num2의 곱과 같아야 합니다")
     void expression3() {
-        assertThat(test.result).isEqualTo(test.num1 + test.num2);
+        assertThat(test.result).isEqualTo(test.num1 * test.num2);
     }
 }
